@@ -29,11 +29,11 @@ class VLBaseEntity: Object , Mappable, NSCopying {
     }
     
     required init(realm: RLMRealm, schema: RLMObjectSchema) {
-        fatalError("init(realm:schema:) has not been implemented")
+        super.init(realm: realm, schema: schema)
     }
     
     required init(value: Any, schema: RLMSchema) {
-        fatalError("init(value:schema:) has not been implemented")
+        super.init(value: value, schema: schema)
     }
     
     func mapping(map: Map) {
@@ -134,5 +134,19 @@ class VLBaseEntity: Object , Mappable, NSCopying {
             
         }
         
+    }
+    
+    // MARK: - Realm
+    override class func primaryKey() -> String? {
+        return "id"
+    }
+    
+    static func objectForMapping(map: Map) -> BaseMappable? {
+        do {
+            let realm = try Realm()
+            return realm.object(ofType: self, forMapping: map)
+        } catch {
+            return nil
+        }
     }
 }

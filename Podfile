@@ -16,6 +16,7 @@ target 'VozLiving' do
   pod 'AlamofireImage', '~> 3.2'
 #  pod 'RealmMapper'
   pod 'FTImageViewer'
+  pod 'SwiftSoup'
   
   target 'VozLivingTests' do
     inherit! :search_paths

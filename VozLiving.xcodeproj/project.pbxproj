@@ -15,11 +15,17 @@
 		1A51E06C1F0A1A91006A12F3 /* VozLivingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51E06B1F0A1A91006A12F3 /* VozLivingTests.swift */; };
 		1A51E0771F0A1A91006A12F3 /* VozLivingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51E0761F0A1A91006A12F3 /* VozLivingUITests.swift */; };
 		1A6E46CD1F0A648700D196C2 /* VLRealmManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6E46CC1F0A648700D196C2 /* VLRealmManagement.swift */; };
+		1A77E8331F0AB39E00C709C4 /* VLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A77E8321F0AB39E00C709C4 /* VLResponse.swift */; };
+		1A77E8351F0AC39600C709C4 /* VLUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A77E8341F0AC39600C709C4 /* VLUser.swift */; };
 		1A7BC35A1F0A67E200913398 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1A7BC3541F0A67E200913398 /* LICENSE */; };
 		1A7BC35B1F0A67E200913398 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BC3551F0A67E200913398 /* README.md */; };
 		1A7BC35C1F0A67E200913398 /* Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BC3571F0A67E200913398 /* Mapping.swift */; };
 		1A7BC35D1F0A67E200913398 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BC3581F0A67E200913398 /* Operator.swift */; };
 		1A7BC35E1F0A67E200913398 /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BC3591F0A67E200913398 /* Transform.swift */; };
+		1A7BC3611F0A975700913398 /* StringCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BC3601F0A975700913398 /* StringCrypto.swift */; };
+		1A7BC3691F0A98FE00913398 /* VLLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BC3681F0A98FE00913398 /* VLLoginViewController.swift */; };
+		1A7BC36C1F0AA14300913398 /* VLNetworkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BC36B1F0AA14300913398 /* VLNetworkUtils.swift */; };
+		1A7BC36E1F0AA99200913398 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BC36D1F0AA99200913398 /* StringExt.swift */; };
 		1A8B8A7F1F0A392700B15EE6 /* VLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B8A7E1F0A392700B15EE6 /* VLViewController.swift */; };
 		1A8B8A811F0A3B0D00B15EE6 /* VLDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B8A801F0A3B0D00B15EE6 /* VLDefinitions.swift */; };
 		1A8B8A831F0A3BBE00B15EE6 /* VLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B8A821F0A3BBE00B15EE6 /* VLView.swift */; };
@@ -61,11 +67,18 @@
 		1A51E0761F0A1A91006A12F3 /* VozLivingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VozLivingUITests.swift; sourceTree = "<group>"; };
 		1A51E0781F0A1A91006A12F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A6E46CC1F0A648700D196C2 /* VLRealmManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VLRealmManagement.swift; path = Utilities/VLRealmManagement.swift; sourceTree = "<group>"; };
+		1A77E8321F0AB39E00C709C4 /* VLResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VLResponse.swift; path = Entities/VLResponse.swift; sourceTree = "<group>"; };
+		1A77E8341F0AC39600C709C4 /* VLUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VLUser.swift; path = Entities/VLUser.swift; sourceTree = "<group>"; };
 		1A7BC3541F0A67E200913398 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1A7BC3551F0A67E200913398 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1A7BC3571F0A67E200913398 /* Mapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapping.swift; sourceTree = "<group>"; };
 		1A7BC3581F0A67E200913398 /* Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
 		1A7BC3591F0A67E200913398 /* Transform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transform.swift; sourceTree = "<group>"; };
+		1A7BC3601F0A975700913398 /* StringCrypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringCrypto.swift; path = Extensions/StringCrypto.swift; sourceTree = "<group>"; };
+		1A7BC3621F0A984600913398 /* VozLiving-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VozLiving-Bridging-Header.h"; sourceTree = "<group>"; };
+		1A7BC3681F0A98FE00913398 /* VLLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VLLoginViewController.swift; path = "ViewControllers/Login ViewController/VLLoginViewController.swift"; sourceTree = "<group>"; };
+		1A7BC36B1F0AA14300913398 /* VLNetworkUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VLNetworkUtils.swift; path = Utilities/VLNetworkUtils.swift; sourceTree = "<group>"; };
+		1A7BC36D1F0AA99200913398 /* StringExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExt.swift; path = Extensions/StringExt.swift; sourceTree = "<group>"; };
 		1A8B8A7E1F0A392700B15EE6 /* VLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VLViewController.swift; path = Base/VLViewController.swift; sourceTree = "<group>"; };
 		1A8B8A801F0A3B0D00B15EE6 /* VLDefinitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VLDefinitions.swift; path = Utilities/VLDefinitions.swift; sourceTree = "<group>"; };
 		1A8B8A821F0A3BBE00B15EE6 /* VLView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VLView.swift; path = Base/VLView.swift; sourceTree = "<group>"; };
@@ -137,12 +150,15 @@
 				1A8B8A7A1F0A370500B15EE6 /* Base */,
 				1A9E09DE1F0A62130013F36A /* Libraries */,
 				1A8B8A781F0A36EF00B15EE6 /* Utilities */,
+				1A7BC35F1F0A96FE00913398 /* Extensions */,
+				1A7BC3661F0A98A900913398 /* ViewControllers */,
 				1A51E0561F0A1A91006A12F3 /* AppDelegate.swift */,
 				1A51E0581F0A1A91006A12F3 /* ViewController.swift */,
 				1A51E05A1F0A1A91006A12F3 /* Main.storyboard */,
 				1A51E05D1F0A1A91006A12F3 /* Assets.xcassets */,
 				1A51E05F1F0A1A91006A12F3 /* LaunchScreen.storyboard */,
 				1A51E0621F0A1A91006A12F3 /* Info.plist */,
+				1A7BC3621F0A984600913398 /* VozLiving-Bridging-Header.h */,
 			);
 			path = VozLiving;
 			sourceTree = "<group>";
@@ -193,10 +209,46 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		1A7BC35F1F0A96FE00913398 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1A7BC3601F0A975700913398 /* StringCrypto.swift */,
+				1A7BC36D1F0AA99200913398 /* StringExt.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		1A7BC3661F0A98A900913398 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1A7BC3671F0A98BA00913398 /* Login ViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1A7BC3671F0A98BA00913398 /* Login ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1A7BC3681F0A98FE00913398 /* VLLoginViewController.swift */,
+				1A77E8341F0AC39600C709C4 /* VLUser.swift */,
+			);
+			name = "Login ViewController";
+			sourceTree = "<group>";
+		};
+		1A7BC36A1F0AA11300913398 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1A77E8321F0AB39E00C709C4 /* VLResponse.swift */,
+				1A7BC36B1F0AA14300913398 /* VLNetworkUtils.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
 		1A8B8A781F0A36EF00B15EE6 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
 				1A6E46CB1F0A645700D196C2 /* Database */,
+				1A7BC36A1F0AA11300913398 /* Network */,
 				1A8B8A801F0A3B0D00B15EE6 /* VLDefinitions.swift */,
 			);
 			name = Utilities;
@@ -346,6 +398,7 @@
 					1A51E0521F0A1A91006A12F3 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 7W793QK84V;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					1A51E0661F0A1A91006A12F3 = {
@@ -443,6 +496,7 @@
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSONRealmObject/SwiftyJSONRealmObject.framework",
 				"${BUILT_PRODUCTS_DIR}/THCalendarDatePicker/THCalendarDatePicker.framework",
@@ -461,6 +515,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSONRealmObject.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/THCalendarDatePicker.framework",
@@ -597,12 +652,18 @@
 				1A7BC35C1F0A67E200913398 /* Mapping.swift in Sources */,
 				1A8B8A811F0A3B0D00B15EE6 /* VLDefinitions.swift in Sources */,
 				1A51E0591F0A1A91006A12F3 /* ViewController.swift in Sources */,
+				1A77E8351F0AC39600C709C4 /* VLUser.swift in Sources */,
+				1A7BC36E1F0AA99200913398 /* StringExt.swift in Sources */,
 				1A8B8A7F1F0A392700B15EE6 /* VLViewController.swift in Sources */,
 				1A6E46CD1F0A648700D196C2 /* VLRealmManagement.swift in Sources */,
 				1A8B8A831F0A3BBE00B15EE6 /* VLView.swift in Sources */,
 				1A51E0571F0A1A91006A12F3 /* AppDelegate.swift in Sources */,
+				1A7BC36C1F0AA14300913398 /* VLNetworkUtils.swift in Sources */,
 				1A7BC35D1F0A67E200913398 /* Operator.swift in Sources */,
+				1A7BC3611F0A975700913398 /* StringCrypto.swift in Sources */,
+				1A77E8331F0AB39E00C709C4 /* VLResponse.swift in Sources */,
 				1A7BC35B1F0A67E200913398 /* README.md in Sources */,
+				1A7BC3691F0A98FE00913398 /* VLLoginViewController.swift in Sources */,
 				1A8B8A851F0A3FBB00B15EE6 /* VLBaseEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -758,12 +819,15 @@
 			baseConfigurationReference = 77545F126CB85EBC56A16B44 /* Pods-VozLiving.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 7W793QK84V;
 				INFOPLIST_FILE = VozLiving/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nguyenhunga5.VozLiving;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VozLiving/VozLiving-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -773,12 +837,14 @@
 			baseConfigurationReference = CF921053204C8C96A3F2365E /* Pods-VozLiving.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 7W793QK84V;
 				INFOPLIST_FILE = VozLiving/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nguyenhunga5.VozLiving;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VozLiving/VozLiving-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
