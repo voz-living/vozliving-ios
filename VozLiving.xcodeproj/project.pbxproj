@@ -1,0 +1,890 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A51E0571F0A1A91006A12F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51E0561F0A1A91006A12F3 /* AppDelegate.swift */; };
+		1A51E0591F0A1A91006A12F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51E0581F0A1A91006A12F3 /* ViewController.swift */; };
+		1A51E05C1F0A1A91006A12F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A51E05A1F0A1A91006A12F3 /* Main.storyboard */; };
+		1A51E05E1F0A1A91006A12F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A51E05D1F0A1A91006A12F3 /* Assets.xcassets */; };
+		1A51E0611F0A1A91006A12F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A51E05F1F0A1A91006A12F3 /* LaunchScreen.storyboard */; };
+		1A51E06C1F0A1A91006A12F3 /* VozLivingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51E06B1F0A1A91006A12F3 /* VozLivingTests.swift */; };
+		1A51E0771F0A1A91006A12F3 /* VozLivingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51E0761F0A1A91006A12F3 /* VozLivingUITests.swift */; };
+		1A6E46CD1F0A648700D196C2 /* VLRealmManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6E46CC1F0A648700D196C2 /* VLRealmManagement.swift */; };
+		1A7BC35A1F0A67E200913398 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1A7BC3541F0A67E200913398 /* LICENSE */; };
+		1A7BC35B1F0A67E200913398 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BC3551F0A67E200913398 /* README.md */; };
+		1A7BC35C1F0A67E200913398 /* Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BC3571F0A67E200913398 /* Mapping.swift */; };
+		1A7BC35D1F0A67E200913398 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BC3581F0A67E200913398 /* Operator.swift */; };
+		1A7BC35E1F0A67E200913398 /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BC3591F0A67E200913398 /* Transform.swift */; };
+		1A8B8A7F1F0A392700B15EE6 /* VLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B8A7E1F0A392700B15EE6 /* VLViewController.swift */; };
+		1A8B8A811F0A3B0D00B15EE6 /* VLDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B8A801F0A3B0D00B15EE6 /* VLDefinitions.swift */; };
+		1A8B8A831F0A3BBE00B15EE6 /* VLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B8A821F0A3BBE00B15EE6 /* VLView.swift */; };
+		1A8B8A851F0A3FBB00B15EE6 /* VLBaseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B8A841F0A3FBB00B15EE6 /* VLBaseEntity.swift */; };
+		453679CD7ACD0DDB576900E5 /* Pods_VozLivingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02E30AF6058B21D7821B0CC /* Pods_VozLivingUITests.framework */; };
+		4C762C288CDDF0B5F729B13B /* Pods_VozLivingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7BAD4581C81C6C5395ABFC1 /* Pods_VozLivingTests.framework */; };
+		B156D0FB53AFF17E4C560B64 /* Pods_VozLiving.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E995823A26A8206287CB3EC9 /* Pods_VozLiving.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A51E0681F0A1A91006A12F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A51E04B1F0A1A91006A12F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A51E0521F0A1A91006A12F3;
+			remoteInfo = VozLiving;
+		};
+		1A51E0731F0A1A91006A12F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A51E04B1F0A1A91006A12F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A51E0521F0A1A91006A12F3;
+			remoteInfo = VozLiving;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A51E0531F0A1A91006A12F3 /* VozLiving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VozLiving.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A51E0561F0A1A91006A12F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A51E0581F0A1A91006A12F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A51E05B1F0A1A91006A12F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A51E05D1F0A1A91006A12F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A51E0601F0A1A91006A12F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A51E0621F0A1A91006A12F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A51E0671F0A1A91006A12F3 /* VozLivingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VozLivingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A51E06B1F0A1A91006A12F3 /* VozLivingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VozLivingTests.swift; sourceTree = "<group>"; };
+		1A51E06D1F0A1A91006A12F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A51E0721F0A1A91006A12F3 /* VozLivingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VozLivingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A51E0761F0A1A91006A12F3 /* VozLivingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VozLivingUITests.swift; sourceTree = "<group>"; };
+		1A51E0781F0A1A91006A12F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A6E46CC1F0A648700D196C2 /* VLRealmManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VLRealmManagement.swift; path = Utilities/VLRealmManagement.swift; sourceTree = "<group>"; };
+		1A7BC3541F0A67E200913398 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1A7BC3551F0A67E200913398 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1A7BC3571F0A67E200913398 /* Mapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapping.swift; sourceTree = "<group>"; };
+		1A7BC3581F0A67E200913398 /* Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
+		1A7BC3591F0A67E200913398 /* Transform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transform.swift; sourceTree = "<group>"; };
+		1A8B8A7E1F0A392700B15EE6 /* VLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VLViewController.swift; path = Base/VLViewController.swift; sourceTree = "<group>"; };
+		1A8B8A801F0A3B0D00B15EE6 /* VLDefinitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VLDefinitions.swift; path = Utilities/VLDefinitions.swift; sourceTree = "<group>"; };
+		1A8B8A821F0A3BBE00B15EE6 /* VLView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VLView.swift; path = Base/VLView.swift; sourceTree = "<group>"; };
+		1A8B8A841F0A3FBB00B15EE6 /* VLBaseEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VLBaseEntity.swift; path = Base/VLBaseEntity.swift; sourceTree = "<group>"; };
+		378AA5D14E50452114B2473A /* Pods-VozLivingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VozLivingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VozLivingTests/Pods-VozLivingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4511809B608CFDFD5E2E8556 /* Pods-VozLivingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VozLivingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VozLivingUITests/Pods-VozLivingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5F94555A21C26E93C972F79B /* Pods-VozLivingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VozLivingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VozLivingTests/Pods-VozLivingTests.release.xcconfig"; sourceTree = "<group>"; };
+		77545F126CB85EBC56A16B44 /* Pods-VozLiving.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VozLiving.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VozLiving/Pods-VozLiving.debug.xcconfig"; sourceTree = "<group>"; };
+		92F9E88F3082C778824F6410 /* Pods-VozLivingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VozLivingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VozLivingUITests/Pods-VozLivingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7BAD4581C81C6C5395ABFC1 /* Pods_VozLivingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VozLivingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF921053204C8C96A3F2365E /* Pods-VozLiving.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VozLiving.release.xcconfig"; path = "Pods/Target Support Files/Pods-VozLiving/Pods-VozLiving.release.xcconfig"; sourceTree = "<group>"; };
+		E02E30AF6058B21D7821B0CC /* Pods_VozLivingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VozLivingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E995823A26A8206287CB3EC9 /* Pods_VozLiving.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VozLiving.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A51E0501F0A1A91006A12F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B156D0FB53AFF17E4C560B64 /* Pods_VozLiving.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A51E0641F0A1A91006A12F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C762C288CDDF0B5F729B13B /* Pods_VozLivingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A51E06F1F0A1A91006A12F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453679CD7ACD0DDB576900E5 /* Pods_VozLivingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A51E04A1F0A1A91006A12F3 = {
+			isa = PBXGroup;
+			children = (
+				1A51E0551F0A1A91006A12F3 /* VozLiving */,
+				1A51E06A1F0A1A91006A12F3 /* VozLivingTests */,
+				1A51E0751F0A1A91006A12F3 /* VozLivingUITests */,
+				1A51E0541F0A1A91006A12F3 /* Products */,
+				7FF99B9E3ACAFC3DFB51A83E /* Pods */,
+				F2C567E184685B98CBAA2A25 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A51E0541F0A1A91006A12F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A51E0531F0A1A91006A12F3 /* VozLiving.app */,
+				1A51E0671F0A1A91006A12F3 /* VozLivingTests.xctest */,
+				1A51E0721F0A1A91006A12F3 /* VozLivingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A51E0551F0A1A91006A12F3 /* VozLiving */ = {
+			isa = PBXGroup;
+			children = (
+				1A8B8A7A1F0A370500B15EE6 /* Base */,
+				1A9E09DE1F0A62130013F36A /* Libraries */,
+				1A8B8A781F0A36EF00B15EE6 /* Utilities */,
+				1A51E0561F0A1A91006A12F3 /* AppDelegate.swift */,
+				1A51E0581F0A1A91006A12F3 /* ViewController.swift */,
+				1A51E05A1F0A1A91006A12F3 /* Main.storyboard */,
+				1A51E05D1F0A1A91006A12F3 /* Assets.xcassets */,
+				1A51E05F1F0A1A91006A12F3 /* LaunchScreen.storyboard */,
+				1A51E0621F0A1A91006A12F3 /* Info.plist */,
+			);
+			path = VozLiving;
+			sourceTree = "<group>";
+		};
+		1A51E06A1F0A1A91006A12F3 /* VozLivingTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A51E06B1F0A1A91006A12F3 /* VozLivingTests.swift */,
+				1A51E06D1F0A1A91006A12F3 /* Info.plist */,
+			);
+			path = VozLivingTests;
+			sourceTree = "<group>";
+		};
+		1A51E0751F0A1A91006A12F3 /* VozLivingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A51E0761F0A1A91006A12F3 /* VozLivingUITests.swift */,
+				1A51E0781F0A1A91006A12F3 /* Info.plist */,
+			);
+			path = VozLivingUITests;
+			sourceTree = "<group>";
+		};
+		1A6E46CB1F0A645700D196C2 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				1A6E46CC1F0A648700D196C2 /* VLRealmManagement.swift */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		1A7BC3531F0A67E200913398 /* RealmMapper */ = {
+			isa = PBXGroup;
+			children = (
+				1A7BC3541F0A67E200913398 /* LICENSE */,
+				1A7BC3551F0A67E200913398 /* README.md */,
+				1A7BC3561F0A67E200913398 /* Sources */,
+			);
+			path = RealmMapper;
+			sourceTree = "<group>";
+		};
+		1A7BC3561F0A67E200913398 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1A7BC3571F0A67E200913398 /* Mapping.swift */,
+				1A7BC3581F0A67E200913398 /* Operator.swift */,
+				1A7BC3591F0A67E200913398 /* Transform.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1A8B8A781F0A36EF00B15EE6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1A6E46CB1F0A645700D196C2 /* Database */,
+				1A8B8A801F0A3B0D00B15EE6 /* VLDefinitions.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		1A8B8A7A1F0A370500B15EE6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1A8B8A7C1F0A37BE00B15EE6 /* ViewController */,
+				1A8B8A7B1F0A37B700B15EE6 /* Views */,
+				1A8B8A7D1F0A37C700B15EE6 /* Entities */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		1A8B8A7B1F0A37B700B15EE6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A8B8A821F0A3BBE00B15EE6 /* VLView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1A8B8A7C1F0A37BE00B15EE6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1A8B8A7E1F0A392700B15EE6 /* VLViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		1A8B8A7D1F0A37C700B15EE6 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				1A8B8A841F0A3FBB00B15EE6 /* VLBaseEntity.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		1A9E09DE1F0A62130013F36A /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1A7BC3531F0A67E200913398 /* RealmMapper */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		7FF99B9E3ACAFC3DFB51A83E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77545F126CB85EBC56A16B44 /* Pods-VozLiving.debug.xcconfig */,
+				CF921053204C8C96A3F2365E /* Pods-VozLiving.release.xcconfig */,
+				378AA5D14E50452114B2473A /* Pods-VozLivingTests.debug.xcconfig */,
+				5F94555A21C26E93C972F79B /* Pods-VozLivingTests.release.xcconfig */,
+				92F9E88F3082C778824F6410 /* Pods-VozLivingUITests.debug.xcconfig */,
+				4511809B608CFDFD5E2E8556 /* Pods-VozLivingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2C567E184685B98CBAA2A25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E995823A26A8206287CB3EC9 /* Pods_VozLiving.framework */,
+				A7BAD4581C81C6C5395ABFC1 /* Pods_VozLivingTests.framework */,
+				E02E30AF6058B21D7821B0CC /* Pods_VozLivingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A51E0521F0A1A91006A12F3 /* VozLiving */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A51E07B1F0A1A91006A12F3 /* Build configuration list for PBXNativeTarget "VozLiving" */;
+			buildPhases = (
+				A8828C3C8BDD865336E524C8 /* [CP] Check Pods Manifest.lock */,
+				1A51E04F1F0A1A91006A12F3 /* Sources */,
+				1A51E0501F0A1A91006A12F3 /* Frameworks */,
+				1A51E0511F0A1A91006A12F3 /* Resources */,
+				49E20089367C7A49D728F5DC /* [CP] Embed Pods Frameworks */,
+				ED2935189954F82A0163461E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VozLiving;
+			productName = VozLiving;
+			productReference = 1A51E0531F0A1A91006A12F3 /* VozLiving.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A51E0661F0A1A91006A12F3 /* VozLivingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A51E07E1F0A1A91006A12F3 /* Build configuration list for PBXNativeTarget "VozLivingTests" */;
+			buildPhases = (
+				A1756E97EA44F9BF038F82F4 /* [CP] Check Pods Manifest.lock */,
+				1A51E0631F0A1A91006A12F3 /* Sources */,
+				1A51E0641F0A1A91006A12F3 /* Frameworks */,
+				1A51E0651F0A1A91006A12F3 /* Resources */,
+				E023F27261C1BDF8C8B6A05F /* [CP] Embed Pods Frameworks */,
+				1542A1DE378CF58C8C7D12DA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A51E0691F0A1A91006A12F3 /* PBXTargetDependency */,
+			);
+			name = VozLivingTests;
+			productName = VozLivingTests;
+			productReference = 1A51E0671F0A1A91006A12F3 /* VozLivingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A51E0711F0A1A91006A12F3 /* VozLivingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A51E0811F0A1A91006A12F3 /* Build configuration list for PBXNativeTarget "VozLivingUITests" */;
+			buildPhases = (
+				C86EF4B69D04F9E3DE4E045A /* [CP] Check Pods Manifest.lock */,
+				1A51E06E1F0A1A91006A12F3 /* Sources */,
+				1A51E06F1F0A1A91006A12F3 /* Frameworks */,
+				1A51E0701F0A1A91006A12F3 /* Resources */,
+				B4ABD86D12CC67AF3365C0D2 /* [CP] Embed Pods Frameworks */,
+				7A7D53A490B22924E78F2C25 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A51E0741F0A1A91006A12F3 /* PBXTargetDependency */,
+			);
+			name = VozLivingUITests;
+			productName = VozLivingUITests;
+			productReference = 1A51E0721F0A1A91006A12F3 /* VozLivingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A51E04B1F0A1A91006A12F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VL;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = VozLiving;
+				TargetAttributes = {
+					1A51E0521F0A1A91006A12F3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7W793QK84V;
+						ProvisioningStyle = Automatic;
+					};
+					1A51E0661F0A1A91006A12F3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7W793QK84V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A51E0521F0A1A91006A12F3;
+					};
+					1A51E0711F0A1A91006A12F3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7W793QK84V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A51E0521F0A1A91006A12F3;
+					};
+				};
+			};
+			buildConfigurationList = 1A51E04E1F0A1A91006A12F3 /* Build configuration list for PBXProject "VozLiving" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A51E04A1F0A1A91006A12F3;
+			productRefGroup = 1A51E0541F0A1A91006A12F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A51E0521F0A1A91006A12F3 /* VozLiving */,
+				1A51E0661F0A1A91006A12F3 /* VozLivingTests */,
+				1A51E0711F0A1A91006A12F3 /* VozLivingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A51E0511F0A1A91006A12F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A51E0611F0A1A91006A12F3 /* LaunchScreen.storyboard in Resources */,
+				1A51E05E1F0A1A91006A12F3 /* Assets.xcassets in Resources */,
+				1A7BC35A1F0A67E200913398 /* LICENSE in Resources */,
+				1A51E05C1F0A1A91006A12F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A51E0651F0A1A91006A12F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A51E0701F0A1A91006A12F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1542A1DE378CF58C8C7D12DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VozLivingTests/Pods-VozLivingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49E20089367C7A49D728F5DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VozLiving/Pods-VozLiving-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/FTImageViewer/FTImageViewer.framework",
+				"${BUILT_PRODUCTS_DIR}/KNSemiModalViewController_hons82/KNSemiModalViewController_hons82.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSONRealmObject/SwiftyJSONRealmObject.framework",
+				"${BUILT_PRODUCTS_DIR}/THCalendarDatePicker/THCalendarDatePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/TPKeyboardAvoiding/TPKeyboardAvoiding.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FTImageViewer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KNSemiModalViewController_hons82.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSONRealmObject.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/THCalendarDatePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPKeyboardAvoiding.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VozLiving/Pods-VozLiving-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A7D53A490B22924E78F2C25 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VozLivingUITests/Pods-VozLivingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1756E97EA44F9BF038F82F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VozLivingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8828C3C8BDD865336E524C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VozLiving-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4ABD86D12CC67AF3365C0D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VozLivingUITests/Pods-VozLivingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C86EF4B69D04F9E3DE4E045A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VozLivingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E023F27261C1BDF8C8B6A05F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VozLivingTests/Pods-VozLivingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED2935189954F82A0163461E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VozLiving/Pods-VozLiving-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A51E04F1F0A1A91006A12F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7BC35E1F0A67E200913398 /* Transform.swift in Sources */,
+				1A7BC35C1F0A67E200913398 /* Mapping.swift in Sources */,
+				1A8B8A811F0A3B0D00B15EE6 /* VLDefinitions.swift in Sources */,
+				1A51E0591F0A1A91006A12F3 /* ViewController.swift in Sources */,
+				1A8B8A7F1F0A392700B15EE6 /* VLViewController.swift in Sources */,
+				1A6E46CD1F0A648700D196C2 /* VLRealmManagement.swift in Sources */,
+				1A8B8A831F0A3BBE00B15EE6 /* VLView.swift in Sources */,
+				1A51E0571F0A1A91006A12F3 /* AppDelegate.swift in Sources */,
+				1A7BC35D1F0A67E200913398 /* Operator.swift in Sources */,
+				1A7BC35B1F0A67E200913398 /* README.md in Sources */,
+				1A8B8A851F0A3FBB00B15EE6 /* VLBaseEntity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A51E0631F0A1A91006A12F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A51E06C1F0A1A91006A12F3 /* VozLivingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A51E06E1F0A1A91006A12F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A51E0771F0A1A91006A12F3 /* VozLivingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A51E0691F0A1A91006A12F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A51E0521F0A1A91006A12F3 /* VozLiving */;
+			targetProxy = 1A51E0681F0A1A91006A12F3 /* PBXContainerItemProxy */;
+		};
+		1A51E0741F0A1A91006A12F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A51E0521F0A1A91006A12F3 /* VozLiving */;
+			targetProxy = 1A51E0731F0A1A91006A12F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A51E05A1F0A1A91006A12F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A51E05B1F0A1A91006A12F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A51E05F1F0A1A91006A12F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A51E0601F0A1A91006A12F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A51E0791F0A1A91006A12F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A51E07A1F0A1A91006A12F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A51E07C1F0A1A91006A12F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77545F126CB85EBC56A16B44 /* Pods-VozLiving.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7W793QK84V;
+				INFOPLIST_FILE = VozLiving/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nguyenhunga5.VozLiving;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1A51E07D1F0A1A91006A12F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF921053204C8C96A3F2365E /* Pods-VozLiving.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7W793QK84V;
+				INFOPLIST_FILE = VozLiving/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nguyenhunga5.VozLiving;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1A51E07F1F0A1A91006A12F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 378AA5D14E50452114B2473A /* Pods-VozLivingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7W793QK84V;
+				INFOPLIST_FILE = VozLivingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nguyenhunga5.VozLivingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VozLiving.app/VozLiving";
+			};
+			name = Debug;
+		};
+		1A51E0801F0A1A91006A12F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F94555A21C26E93C972F79B /* Pods-VozLivingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7W793QK84V;
+				INFOPLIST_FILE = VozLivingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nguyenhunga5.VozLivingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VozLiving.app/VozLiving";
+			};
+			name = Release;
+		};
+		1A51E0821F0A1A91006A12F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92F9E88F3082C778824F6410 /* Pods-VozLivingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7W793QK84V;
+				INFOPLIST_FILE = VozLivingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nguyenhunga5.VozLivingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VozLiving;
+			};
+			name = Debug;
+		};
+		1A51E0831F0A1A91006A12F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4511809B608CFDFD5E2E8556 /* Pods-VozLivingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7W793QK84V;
+				INFOPLIST_FILE = VozLivingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nguyenhunga5.VozLivingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VozLiving;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A51E04E1F0A1A91006A12F3 /* Build configuration list for PBXProject "VozLiving" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A51E0791F0A1A91006A12F3 /* Debug */,
+				1A51E07A1F0A1A91006A12F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A51E07B1F0A1A91006A12F3 /* Build configuration list for PBXNativeTarget "VozLiving" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A51E07C1F0A1A91006A12F3 /* Debug */,
+				1A51E07D1F0A1A91006A12F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A51E07E1F0A1A91006A12F3 /* Build configuration list for PBXNativeTarget "VozLivingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A51E07F1F0A1A91006A12F3 /* Debug */,
+				1A51E0801F0A1A91006A12F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A51E0811F0A1A91006A12F3 /* Build configuration list for PBXNativeTarget "VozLivingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A51E0821F0A1A91006A12F3 /* Debug */,
+				1A51E0831F0A1A91006A12F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A51E04B1F0A1A91006A12F3 /* Project object */;
+}
