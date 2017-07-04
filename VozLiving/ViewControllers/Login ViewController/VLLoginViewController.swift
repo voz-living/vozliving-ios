@@ -16,11 +16,23 @@ class VLLoginViewController: VLViewController {
     
     @IBOutlet weak var loginButton: UIButton!
     
+    @IBOutlet weak var loginView: UIView!
+    @IBOutlet weak var layoutBottomLoginV: NSLayoutConstraint!
+    @IBOutlet weak var layouBottomLoginBT: NSLayoutConstraint!
+    @IBOutlet weak var layouWidthLoginBT: NSLayoutConstraint!
+    
+    
+    private var isShowedLoginV = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        
+        self.layoutBottomLoginV.constant = -250
+        self.layouBottomLoginBT.constant = 0
+        self.layouWidthLoginBT.constant = self.view.frame.size.width
     }
 
     override func didReceiveMemoryWarning() {
@@ -39,35 +51,109 @@ class VLLoginViewController: VLViewController {
     }
     */
 
+    @IBAction func hideLoginViewAction(_ sender: Any) {
+        
+        self.userNameTextField.resignFirstResponder()
+        self.passwordTextField.resignFirstResponder()
+
+        UIView.animate(withDuration: 0.3, animations: {
+            
+            self.userNameTextField.alpha = 0
+            self.passwordTextField.alpha = 0
+            
+            self.layouBottomLoginBT.constant = 0
+            self.layouWidthLoginBT.constant = self.view.frame.size.width
+            self.view.layoutIfNeeded()
+        }) { (finished) in
+            
+        }
+        
+        UIView.animate(withDuration: 0.5, animations: {
+            
+            self.layoutBottomLoginV.constant = -250
+            self.view.layoutIfNeeded()
+        }) { (finished) in
+            
+            self.userNameTextField.alpha = 1
+            self.passwordTextField.alpha = 1
+
+
+        }
+
+        self.isShowedLoginV = false
+
+    }
     // MARK: - Action
     @IBAction func loginAction(_ sender: Any) {
         
-        guard let userName = self.userNameTextField.text, userName.length > 0,
-        let password = self.passwordTextField.text, password.length > 0
-        else {
+        if !isShowedLoginV {
             
-            userNameTextField.becomeFirstResponder()
-            return
-        }
-        
-        _ = self.showHUD(text: "Đang đăng nhập", animated: true)
-        VLNetworkUtils.sharedInstance.login(userName: userName, password: password) { (success) in
+            self.isShowedLoginV = true
+            self.userNameTextField.alpha = 0
+            self.passwordTextField.alpha = 0
             
-            if success {
+            UIView.animate(withDuration: 0.3, animations: {
                 
-                _ = self.showHUD(text: "Đăng nhập thành công rồi\n nha ku", animated: true)
-                _ = self.hide(animated: true, afterDelay: 3, hudDismissCompleteHandler: { 
-                    
-                })
+                self.layoutBottomLoginV.constant = 0
+                self.view.layoutIfNeeded()
+            }) { (finished) in
                 
-            } else {
-                
-                self.showAlert(title: "Đăng nhập thất bại", message: "Vui lòng kiểm tra thông tin tài khoản của bạn", buttonTitles: "Uh, biết rồi", completeHandler: { (button) in
-                    
-                    self.userNameTextField.becomeFirstResponder()
-                    _ = self.hide(animated: true)
-                })
             }
+            
+            UIView.animate(withDuration: 0.5, animations: {
+                
+                self.layouWidthLoginBT.constant = 300
+                self.layouBottomLoginBT.constant = 200
+                self.view.layoutIfNeeded()
+            }) { (finished) in
+                
+            }
+            
+            UIView.animate(withDuration: 0.8, animations: {
+                
+                self.userNameTextField.alpha = 1
+            }) { (finished) in
+                
+            }
+            
+            UIView.animate(withDuration: 1, animations: {
+                
+                self.passwordTextField.alpha = 1
+                self.view.layoutIfNeeded()
+            }) { (finished) in
+                
+            }
+
+        } else {
+        
+            guard let userName = self.userNameTextField.text, userName.length > 0,
+                let password = self.passwordTextField.text, password.length > 0
+                else {
+                    
+                    userNameTextField.becomeFirstResponder()
+                    return
+            }
+            
+            _ = self.showHUD(text: "Đang đăng nhập", animated: true)
+            VLNetworkUtils.sharedInstance.login(userName: userName, password: password) { (success) in
+                
+                if success {
+                    
+                    _ = self.showHUD(text: "Đăng nhập thành công rồi\n nha ku", animated: true)
+                    _ = self.hide(animated: true, afterDelay: 3, hudDismissCompleteHandler: {
+                        
+                    })
+                    
+                } else {
+                    
+                    self.showAlert(title: "Đăng nhập thất bại", message: "Vui lòng kiểm tra thông tin tài khoản của bạn", buttonTitles: "Uh, biết rồi", completeHandler: { (button) in
+                        
+                        self.userNameTextField.becomeFirstResponder()
+                        _ = self.hide(animated: true)
+                    })
+                }
+            }
+
         }
         
     }
