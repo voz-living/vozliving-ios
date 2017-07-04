@@ -53,6 +53,8 @@ class VLLoginViewController: VLViewController {
 
     @IBAction func hideLoginViewAction(_ sender: Any) {
         
+        if !self.isShowedLoginV {return}
+        
         self.userNameTextField.resignFirstResponder()
         self.passwordTextField.resignFirstResponder()
 
@@ -64,6 +66,7 @@ class VLLoginViewController: VLViewController {
             self.layouBottomLoginBT.constant = 0
             self.layouWidthLoginBT.constant = self.view.frame.size.width
             self.view.layoutIfNeeded()
+            
         }) { (finished) in
             
         }
@@ -72,12 +75,11 @@ class VLLoginViewController: VLViewController {
             
             self.layoutBottomLoginV.constant = -250
             self.view.layoutIfNeeded()
+            
         }) { (finished) in
             
             self.userNameTextField.alpha = 1
             self.passwordTextField.alpha = 1
-
-
         }
 
         self.isShowedLoginV = false
@@ -88,7 +90,6 @@ class VLLoginViewController: VLViewController {
         
         if !isShowedLoginV {
             
-            self.isShowedLoginV = true
             self.userNameTextField.alpha = 0
             self.passwordTextField.alpha = 0
             
@@ -96,6 +97,7 @@ class VLLoginViewController: VLViewController {
                 
                 self.layoutBottomLoginV.constant = 0
                 self.view.layoutIfNeeded()
+                
             }) { (finished) in
                 
             }
@@ -105,12 +107,12 @@ class VLLoginViewController: VLViewController {
                 self.layouWidthLoginBT.constant = 300
                 self.layouBottomLoginBT.constant = 200
                 self.view.layoutIfNeeded()
+                
             }) { (finished) in
                 
             }
             
             UIView.animate(withDuration: 0.8, animations: {
-                
                 self.userNameTextField.alpha = 1
             }) { (finished) in
                 
@@ -122,6 +124,7 @@ class VLLoginViewController: VLViewController {
                 self.view.layoutIfNeeded()
             }) { (finished) in
                 
+                self.isShowedLoginV = true
             }
 
         } else {
