@@ -26,6 +26,12 @@
 		1A7BC3691F0A98FE00913398 /* VLLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BC3681F0A98FE00913398 /* VLLoginViewController.swift */; };
 		1A7BC36C1F0AA14300913398 /* VLNetworkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BC36B1F0AA14300913398 /* VLNetworkUtils.swift */; };
 		1A7BC36E1F0AA99200913398 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BC36D1F0AA99200913398 /* StringExt.swift */; };
+		1A7EBF221F0B3C280084BA47 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7EBF211F0B3C280084BA47 /* UIViewExt.swift */; };
+		1A7EBF241F0B3F480084BA47 /* VLTestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A7EBF231F0B3F480084BA47 /* VLTestView.xib */; };
+		1A7EBF261F0B417D0084BA47 /* VLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7EBF251F0B417D0084BA47 /* VLButton.swift */; };
+		1A7EBF281F0B418D0084BA47 /* VLLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7EBF271F0B418D0084BA47 /* VLLabel.swift */; };
+		1A7EBF2A1F0B41E60084BA47 /* VLSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7EBF291F0B41E60084BA47 /* VLSegmentedControl.swift */; };
+		1A7EBF2C1F0B42100084BA47 /* VLTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7EBF2B1F0B42100084BA47 /* VLTextField.swift */; };
 		1A8B8A7F1F0A392700B15EE6 /* VLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B8A7E1F0A392700B15EE6 /* VLViewController.swift */; };
 		1A8B8A811F0A3B0D00B15EE6 /* VLDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B8A801F0A3B0D00B15EE6 /* VLDefinitions.swift */; };
 		1A8B8A831F0A3BBE00B15EE6 /* VLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B8A821F0A3BBE00B15EE6 /* VLView.swift */; };
@@ -79,6 +85,12 @@
 		1A7BC3681F0A98FE00913398 /* VLLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VLLoginViewController.swift; path = "ViewControllers/Login ViewController/VLLoginViewController.swift"; sourceTree = "<group>"; };
 		1A7BC36B1F0AA14300913398 /* VLNetworkUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VLNetworkUtils.swift; path = Utilities/VLNetworkUtils.swift; sourceTree = "<group>"; };
 		1A7BC36D1F0AA99200913398 /* StringExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExt.swift; path = Extensions/StringExt.swift; sourceTree = "<group>"; };
+		1A7EBF211F0B3C280084BA47 /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewExt.swift; path = Extensions/UIViewExt.swift; sourceTree = "<group>"; };
+		1A7EBF231F0B3F480084BA47 /* VLTestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VLTestView.xib; sourceTree = "<group>"; };
+		1A7EBF251F0B417D0084BA47 /* VLButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VLButton.swift; path = Base/VLButton.swift; sourceTree = "<group>"; };
+		1A7EBF271F0B418D0084BA47 /* VLLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VLLabel.swift; path = Base/VLLabel.swift; sourceTree = "<group>"; };
+		1A7EBF291F0B41E60084BA47 /* VLSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VLSegmentedControl.swift; path = Base/VLSegmentedControl.swift; sourceTree = "<group>"; };
+		1A7EBF2B1F0B42100084BA47 /* VLTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VLTextField.swift; path = Base/VLTextField.swift; sourceTree = "<group>"; };
 		1A8B8A7E1F0A392700B15EE6 /* VLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VLViewController.swift; path = Base/VLViewController.swift; sourceTree = "<group>"; };
 		1A8B8A801F0A3B0D00B15EE6 /* VLDefinitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VLDefinitions.swift; path = Utilities/VLDefinitions.swift; sourceTree = "<group>"; };
 		1A8B8A821F0A3BBE00B15EE6 /* VLView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VLView.swift; path = Base/VLView.swift; sourceTree = "<group>"; };
@@ -214,6 +226,8 @@
 			children = (
 				1A7BC3601F0A975700913398 /* StringCrypto.swift */,
 				1A7BC36D1F0AA99200913398 /* StringExt.swift */,
+				1A7EBF211F0B3C280084BA47 /* UIViewExt.swift */,
+				1A7EBF231F0B3F480084BA47 /* VLTestView.xib */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -268,6 +282,10 @@
 			isa = PBXGroup;
 			children = (
 				1A8B8A821F0A3BBE00B15EE6 /* VLView.swift */,
+				1A7EBF251F0B417D0084BA47 /* VLButton.swift */,
+				1A7EBF271F0B418D0084BA47 /* VLLabel.swift */,
+				1A7EBF291F0B41E60084BA47 /* VLSegmentedControl.swift */,
+				1A7EBF2B1F0B42100084BA47 /* VLTextField.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -444,6 +462,7 @@
 				1A51E05E1F0A1A91006A12F3 /* Assets.xcassets in Resources */,
 				1A7BC35A1F0A67E200913398 /* LICENSE in Resources */,
 				1A51E05C1F0A1A91006A12F3 /* Main.storyboard in Resources */,
+				1A7EBF241F0B3F480084BA47 /* VLTestView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,9 +667,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A7EBF221F0B3C280084BA47 /* UIViewExt.swift in Sources */,
 				1A7BC35E1F0A67E200913398 /* Transform.swift in Sources */,
+				1A7EBF281F0B418D0084BA47 /* VLLabel.swift in Sources */,
+				1A7EBF2C1F0B42100084BA47 /* VLTextField.swift in Sources */,
 				1A7BC35C1F0A67E200913398 /* Mapping.swift in Sources */,
 				1A8B8A811F0A3B0D00B15EE6 /* VLDefinitions.swift in Sources */,
+				1A7EBF2A1F0B41E60084BA47 /* VLSegmentedControl.swift in Sources */,
 				1A51E0591F0A1A91006A12F3 /* ViewController.swift in Sources */,
 				1A77E8351F0AC39600C709C4 /* VLUser.swift in Sources */,
 				1A7BC36E1F0AA99200913398 /* StringExt.swift in Sources */,
@@ -661,6 +684,7 @@
 				1A7BC36C1F0AA14300913398 /* VLNetworkUtils.swift in Sources */,
 				1A7BC35D1F0A67E200913398 /* Operator.swift in Sources */,
 				1A7BC3611F0A975700913398 /* StringCrypto.swift in Sources */,
+				1A7EBF261F0B417D0084BA47 /* VLButton.swift in Sources */,
 				1A77E8331F0AB39E00C709C4 /* VLResponse.swift in Sources */,
 				1A7BC35B1F0A67E200913398 /* README.md in Sources */,
 				1A7BC3691F0A98FE00913398 /* VLLoginViewController.swift in Sources */,

@@ -15,13 +15,12 @@ class VLResponse: NSObject {
     let response: DataResponse<String>
     let headerFields: [String: String]?
     let cookies: [HTTPCookie]?
-    var isSuccess: Bool {
-        return self.response.result.isSuccess
-    }
+    let isSuccess: Bool
     
     init(response: DataResponse<String>) {
         
         self.response = response
+        self.isSuccess = self.response.result.isSuccess
         
         if let headerFields = response.response?.allHeaderFields as? [String: String],
             let URL = response.request?.url
