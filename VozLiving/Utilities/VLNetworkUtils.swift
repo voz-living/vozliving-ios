@@ -28,24 +28,13 @@ class VLNetworkUtils: NSObject {
         
         request.responseString(encoding: .utf8) { response in
             
-            let httpBody: String
-            let httpRequest = request.request
             
-            if httpRequest != nil, let httpBodyData = httpRequest?.httpBody,
-                let bodyStr = String(data: httpBodyData, encoding: .utf8) {
-                
-                httpBody = bodyStr
-                
-            } else {
-                
-                httpBody = ""
-            }
+            let vlResponse = VLResponse(response: response)
             
-            DLog("Request: \(request)\nHttpBody: \(httpBody)");
             DLog(response.response);
             
             var requestStatus = "Request is "
-            if response.result.isSuccess {
+            if vlResponse.isSuccess {
                 
                 requestStatus += "success!"
                 
@@ -55,7 +44,7 @@ class VLNetworkUtils: NSObject {
             }
             
             DLog(requestStatus)
-            DLog("Response String: \(response.result.value ?? "")")
+            DLog("Response String: \(vlResponse.responseString)")
             
             completionHandler(VLResponse(response: response))
         }

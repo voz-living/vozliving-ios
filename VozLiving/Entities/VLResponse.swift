@@ -9,6 +9,7 @@
 import UIKit
 import ObjectMapper
 import Alamofire
+import SwiftSoup
 
 class VLResponse: NSObject {
 
@@ -16,6 +17,7 @@ class VLResponse: NSObject {
     let headerFields: [String: String]?
     let cookies: [HTTPCookie]?
     let isSuccess: Bool
+    let responseString: String
     
     init(response: DataResponse<String>) {
         
@@ -35,7 +37,32 @@ class VLResponse: NSObject {
             self.headerFields = nil
         }
         
+        if let responseString = response.result.value {
+            
+            self.responseString = responseString
+            
+        } else {
+            
+            self.responseString = ""
+        }
+        
         super.init()
+        
+    }
+    
+    func parseBody() -> Document? {
+        
+        do {
+            
+            let document = try SwiftSoup.parse(self.responseString)
+            return document
+            
+        } catch {
+            
+            DLog(error)
+        }
+        
+        return nil
         
     }
     
